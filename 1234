@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+<head>
+  <title>逢甲大學圖書館 線上推薦系統</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="./fcul_red_web_title_20190711-1.png">
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #root {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 30%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./fcul_red_web_20190711-1.png" alt="Bootstrap" height="35">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              連結服務
+            </button>
+            <ul class="dropdown-menu dropdown-menu-light">
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.books.com.tw/">台灣博客來</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.eslite.com/">台灣誠品</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.amazon.com/">Amazon</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.sanmin.com.tw/">台灣三民</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.kingstone.com.tw/">台灣金石堂</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.kadokawa.co.jp/">角川書店</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.kongfz.com/">孔夫子舊書網</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://finbook.co/">Findbook</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.kinokuniya.co.jp/">紀伊國屋</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="http://www.bookschina.com/">中國圖書網</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="http://www.dangdang.com/">當當網</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.amazon.ca/">AmazonCanad</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.books-sanseido.co.jp/">三省堂</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://books.google.com/?hl=zh-TW">台灣孤哥</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.chaoxing.com/">超星數字圖書館</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.amazon.co.jp/">AmazonJapan</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="http://www.zgcbb.com/">中關村圖書大廈</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.amazon.cn/">卓越網</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="http://202.96.31.88/Usp/apabi_usp/about.mvc?cult=CN">Apabi數字資源平台</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.e-hon.ne.jp/bec/EB/Top">e-hon全國書店</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="http://www.ypbooks.co.kr/kor_index.yp">永豐文庫</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.welan.com/">蔚藍網路書店</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.ccbc.com.tw/">台灣正中</a></li>
+              <li><a class="dropdown-item" target="_blank" rel="noreferrer noopener" href="https://www.silkbook.com/">台灣新絲路</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>
